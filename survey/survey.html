@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gayathri:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title">HarryZayn Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form">
+      <label id="name-label" for="name">Name:</label>
+      <br />
+      <input id="name" type="text" placeholder="Enter your name" required />
+      <br />
+      <label id="email-label" for="email">Email:</label>
+      <br />
+      <input id="email" type="email" placeholder="Enter your Email" required />
+      <br />
+      <label id="number-label" for="number">Age:</label>
+      <br />
+      <input
+        id="number"
+        type="number"
+        placeholder="Enter your age"
+        required
+        min="12"
+        max="50"
+        required
+      />
+      <p>Which boy band you like the most?</p>
+      <select id="dropdown">
+        <option value="default">Noone</option>
+        <option value="One Direction">One Direction</option>
+        <option value="Backstreet boys">Backstreet boys</option>
+        <option value="BTS">BTS</option>
+        <option value="Super M">Super M</option>
+      </select>
+      <p>Which girl group you like the most?</p>
+      <input type="radio" name="girlgroup" value="1" />Blackpink
+      <br />
+      <input type="radio" name="girlgroup" value="2" />LittleMix
+      <br />
+      <input type="radio" name="girlgroup" value="3" />Twice
+      <br />
+      <input type="radio" name="girlgroup" value="4" />Itzy
+      <br />
+      <input type="radio" name="girlgroup" value="5" />Apink
+      <br />
+      <p>The type of guy you like</p>
+      <input type="checkbox" name="handsomeman" value="1" />Handsome
+      <br />
+      <input type="checkbox" name="handsomeman" value="2" />Rich
+      <br />
+      <input type="checkbox" name="handsomeman" value="3" />Considerate
+      <br />
+      <input type="checkbox" name="handsomeman" value="4" />Tall
+      <br />
+      <input type="checkbox" name="handsomeman" value="5" />Gentle
+      <br />
+      <p>Any comments or suggestions:</p>
+      <textarea id="comment" row="4" col="40">
+         Add your comment here 
+      </textarea>
+      <br />
+      <input id="submit" type="submit" value="submit" />
+    </form>
+  </body>
+</html>
