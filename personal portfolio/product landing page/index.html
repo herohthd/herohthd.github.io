@@ -1,116 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Heebo&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Personal Portfolio webpage</title>
   </head>
   <body>
-    <h1 id="header">
-      <div>
-        <img
-          id="header-img"
-          src="https://i.pinimg.com/736x/30/0e/58/300e58c8416a68dcfcf1761501348243--gaming-logo-game-info.jpg"
-          alt="league of legends"
-        />
+    <!-- IMG SECTION-->
+    <div class="background-grid">
+      <div id="background1">
+        <img class="background-stretch" src="https://c.wallhere.com/photos/7f/54/1500x1000_px_beach_island_landscape_nature_photography_rocks_sea-1263001.jpg!d"
+        alt="welcome-background-img">
       </div>
+      <!--END IMG SECTION-->
+
+
+    <!-- BAR SECTION-->
+    <header id="header">
       <nav id="navbar">
-        <ul>
-          <li><a class="nav-link" href="#achievements">Achievements</a></li>
-          <li><a class="nav-link" href="#highlights">Highlights</a></li>
-          <li><a class="nav-link" href="#champpool">Champ pool</a></li>
-        </ul>
+        <h3>
+          HarryStyles &nbsp;&nbsp;&nbsp;
+            <a class="nav-link" href="#welcome-section">Welcome</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#about-me">About me</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </h3>
       </nav>
-    </h1>
-    <section id="hero">
-      <h2>SofM - Style of me</h2>
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input
-          name="email"
-          id="email"
-          type="email"
-          placeholder="Enter your email address"
-          required
-        />
-        <input id="submit" type="submit" value="Get Started" class="btn" />
-      </form>
+    </header>
+    <!-- END BAR SECTION-->
+
+
+    <!-- WELCOME SECTION-->
+    <section id="welcome-section">
+      <h1>Đỗ Quang Huy</h1>
+      <h2>Computer Science Student in HUST</h2>
     </section>
-    <div class="container">
-      <section id="achievements">
-        <div class="grid">
-          <div class="desc">
-            <h2>Third place in LPL Summer 2020</h2>
-            <br />
-            <p>
-              SofM with his teammates from Sunning Gamming qualified for World
-              2020 with the 2 consecutive wins against LGD.
-            </p>
+    <!-- END WELCOME SECTION-->
+
+
+    <!-- PROJECT SECTION-->
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">These are some of my projects</h2>
+      <div class="projects-grid">
+        <a
+          href="https://codepen.io/herohthd/pen/yLOPEgq"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Tribute Page
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href="https://codepen.io/herohthd/pen/OJNOEbp"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://znews-photo.zadn.vn/w660/Uploaded/yrfjpyvslyr/2019_06_08/dirung1.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Product  page
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href="https://codepen.io/herohthd/pen/XWdzYNO"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://a1surveys.com/wp-content/uploads/2019/03/a.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Survey
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+    </section>
+    <!-- END PROJECT SECTION-->
+    <div id="contact" class="card">
+      <h1>Contact me</h1>
+      <div class="front"><img src="https://vignette.wikia.nocookie.net/harry-styles8955/images/3/30/Snl_1.jpg/revision/latest/top-crop/width/300/height/300?cb=20191117230253" "</div>
+      <div class="back">
+        <div class="details">
+          <h2>Do Quang Huy</h2>
+          <h4>Science student - HUST</h4>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100008184847500" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/huyhaphoi/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=app&pli=1&nlr=1" target="_blank" ><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="https://github.com/herohthd" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
           </div>
         </div>
-        <div class="grid">
-          <div class="desc">
-            <h2>The best rookie in 2016</h2>
-            <br />
-            <p>
-              In the very first season in LPL, SofM has achieved many attentions
-              from pros and LPL fans. They are all amazed at his ability and
-              agressive jungle style.
-            </p>
-          </div>
-        </div>
-      </section>
+      </div>
     </div>
-    <section id="highlights">
-      <iframe
-        width="560"
-        height="315"
-        id="video"
-        src="https://www.youtube.com/embed/53yxL1JymRY"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </section>
-    <section id="champpool">
-      <div class="champion" id="agressive">
-        <div class="level">Agreesive champs</div>
-        <ol>
-          <li>Leesin</li>
-          <li>Elise</li>
-          <li>Olaf</li>
-          <li>Jarvan IV</li>
-        </ol>
-        <button class="btn">
-          <a
-            id="link"
-            href="https://www.youtube.com/watch?v=bdBHrUvc9bY"
-            target="_blank"
-            >See more</a
-          >
-        </button>
-      </div>
-      <div class="champion" id="farm">
-        <div class="level">Farming champs</div>
-        <ol>
-          <li>Karthus</li>
-          <li>Shyvana</li>
-          <li>Lillia</li>
-          <li>Olaf</li>
-        </ol>
-        <button class="btn">
-          <a
-            id="link"
-            href="https://www.youtube.com/watch?v=O_raKRydytI"
-            target="_blank"
-            >See more</a
-          >
-        </button>
-      </div>
-    </section>
   </body>
 </html>
